@@ -9,9 +9,9 @@
 // Initialize three new variables, "food", "type" and "inStock", and assign values to them with
 // a food's name, type and number of items in stock.
 
-// var food = "Ice Cream";
-// var type = "Dessert";
-// var inStock = 10
+var food = "Ice Cream";
+var type = "Dessert";
+var inStock = 10
 
 
 
