@@ -71,7 +71,7 @@ function removeMenuItem(restaurant, menuItem, menu) {
 
 function checkForFood(restaurant, foodItem) {
   for (let i = 0; i < restaurant.menus[foodItem.type].length; i++) {
-    if (foodItem === restaurant.menus[foodItem.type][i]) {
+    if (foodItem === restaurant.menus[foodItem.type]) {
       return `Yes, we're serving ${foodItem.name} today!`;
     }
   }
