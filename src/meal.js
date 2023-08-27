@@ -26,12 +26,15 @@ function formatPrice(initialPrice) {
   var formattedPrice = `$${strPrice}`;
   return initialPrice = formattedPrice;
 }
-
+// Assign the value of the initial price argument * 0.10 to a var 
+// Assign val of argument minus the percentage var to a new var and return
 function decreasePrice(initialPrice) {
   var tenPercent = initialPrice * .1;
   var decreasedPrice  = initialPrice - tenPercent;
   return decreasedPrice;
 }
+
+// Function that takes title, ingredients and type parameters and returns a recipe object
 function createRecipe(title, ingredients, type) {
   var recipe = {
     title: title,

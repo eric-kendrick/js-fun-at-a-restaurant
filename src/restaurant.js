@@ -69,6 +69,9 @@ function removeMenuItem(restaurant, menuItem, menu) {
   return `Sorry, we don't sell ${menuItem}, try adding a new recipe!`;
 }
 
+// checkForFood takes restaurant array and item parameter 
+// for loop with conditional that checks if the passed item argument is equal to the type value of the iterated menu item and returns statement with the menu item name interpolated
+// if the item argument isn't on the menu, return a different statement with the item name interpolated
 function checkForFood(restaurant, foodItem) {
   for (let i = 0; i < restaurant.menus[foodItem.type].length; i++) {
     if (foodItem === restaurant.menus[foodItem.type]) {
